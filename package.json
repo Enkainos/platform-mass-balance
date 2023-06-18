@@ -1,0 +1,15 @@
+{
+  "name": "platform-mass-balance",
+  "version": "1.0.0",
+  "description": "Enkainos Platform Mass Balance Process",
+  "private": true,
+  "scripts": {
+    "run": "node src/main.js"
+  },
+  "dependencies": {
+    "@truffle/contract": "^4.6.24",
+    "dotenv": "^8.2.0",
+    "platform-contracts": "github:Enkainos/platform-contracts"
+  },
+  "main": "main.js"
+}
